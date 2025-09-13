@@ -50,10 +50,10 @@ import backend.Highscore;
 class Main extends Sprite
 {
 	public static final game = {
-		width: 1280, // WINDOW width
+		width: 960, // WINDOW width
 		height: 720, // WINDOW height
 		initialState: TitleState, // initial game state
-		framerate: 60, // default framerate
+		framerate: 120, // default framerate
 		skipSplash: true, // if the default flixel splash screen should be skipped
 		startFullscreen: false // if the game should start at fullscreen mode
 	};
